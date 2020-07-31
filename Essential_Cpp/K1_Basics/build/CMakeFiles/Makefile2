@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = F:\LernTinyStl_lili\Essential_Cpp\K1_Basics\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/k1.dir/all
+all: CMakeFiles/Essential_Cpp.dir/all
 
 .PHONY : all
 
@@ -81,36 +81,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/k1.dir/clean
+clean: CMakeFiles/Essential_Cpp.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/k1.dir
+# Target rules for target CMakeFiles/Essential_Cpp.dir
 
 # All Build rule for target.
-CMakeFiles/k1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\k1.dir\build.make CMakeFiles/k1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\k1.dir\build.make CMakeFiles/k1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\LernTinyStl_lili\Essential_Cpp\K1_Basics\build\CMakeFiles --progress-num=1,2 "Built target k1"
-.PHONY : CMakeFiles/k1.dir/all
+CMakeFiles/Essential_Cpp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Essential_Cpp.dir\build.make CMakeFiles/Essential_Cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Essential_Cpp.dir\build.make CMakeFiles/Essential_Cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\LernTinyStl_lili\Essential_Cpp\K1_Basics\build\CMakeFiles --progress-num=1,2 "Built target Essential_Cpp"
+.PHONY : CMakeFiles/Essential_Cpp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/k1.dir/rule: cmake_check_build_system
+CMakeFiles/Essential_Cpp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\LernTinyStl_lili\Essential_Cpp\K1_Basics\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/k1.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Essential_Cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\LernTinyStl_lili\Essential_Cpp\K1_Basics\build\CMakeFiles 0
-.PHONY : CMakeFiles/k1.dir/rule
+.PHONY : CMakeFiles/Essential_Cpp.dir/rule
 
 # Convenience name for target.
-k1: CMakeFiles/k1.dir/rule
+Essential_Cpp: CMakeFiles/Essential_Cpp.dir/rule
 
-.PHONY : k1
+.PHONY : Essential_Cpp
 
 # clean rule for target.
-CMakeFiles/k1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\k1.dir\build.make CMakeFiles/k1.dir/clean
-.PHONY : CMakeFiles/k1.dir/clean
+CMakeFiles/Essential_Cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Essential_Cpp.dir\build.make CMakeFiles/Essential_Cpp.dir/clean
+.PHONY : CMakeFiles/Essential_Cpp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

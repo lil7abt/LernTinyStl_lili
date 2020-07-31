@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = F:\LernTinyStl_lili\Essential_Cpp\K1_Basics\build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -95,6 +84,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,44 +129,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named k1
+# Target rules for targets named Essential_Cpp
 
 # Build rule for target.
-k1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k1
-.PHONY : k1
+Essential_Cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Essential_Cpp
+.PHONY : Essential_Cpp
 
 # fast build rule for target.
-k1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\k1.dir\build.make CMakeFiles/k1.dir/build
-.PHONY : k1/fast
+Essential_Cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Essential_Cpp.dir\build.make CMakeFiles/Essential_Cpp.dir/build
+.PHONY : Essential_Cpp/fast
 
-k1.obj: k1.cpp.obj
+UserProfile.obj: UserProfile.cpp.obj
 
-.PHONY : k1.obj
+.PHONY : UserProfile.obj
 
 # target to build an object file
-k1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\k1.dir\build.make CMakeFiles/k1.dir/k1.cpp.obj
-.PHONY : k1.cpp.obj
+UserProfile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Essential_Cpp.dir\build.make CMakeFiles/Essential_Cpp.dir/UserProfile.cpp.obj
+.PHONY : UserProfile.cpp.obj
 
-k1.i: k1.cpp.i
+UserProfile.i: UserProfile.cpp.i
 
-.PHONY : k1.i
+.PHONY : UserProfile.i
 
 # target to preprocess a source file
-k1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\k1.dir\build.make CMakeFiles/k1.dir/k1.cpp.i
-.PHONY : k1.cpp.i
+UserProfile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Essential_Cpp.dir\build.make CMakeFiles/Essential_Cpp.dir/UserProfile.cpp.i
+.PHONY : UserProfile.cpp.i
 
-k1.s: k1.cpp.s
+UserProfile.s: UserProfile.cpp.s
 
-.PHONY : k1.s
+.PHONY : UserProfile.s
 
 # target to generate assembly for a file
-k1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\k1.dir\build.make CMakeFiles/k1.dir/k1.cpp.s
-.PHONY : k1.cpp.s
+UserProfile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Essential_Cpp.dir\build.make CMakeFiles/Essential_Cpp.dir/UserProfile.cpp.s
+.PHONY : UserProfile.cpp.s
 
 # Help Target
 help:
@@ -176,10 +176,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... k1
-	@echo ... k1.obj
-	@echo ... k1.i
-	@echo ... k1.s
+	@echo ... Essential_Cpp
+	@echo ... UserProfile.obj
+	@echo ... UserProfile.i
+	@echo ... UserProfile.s
 .PHONY : help
 
 

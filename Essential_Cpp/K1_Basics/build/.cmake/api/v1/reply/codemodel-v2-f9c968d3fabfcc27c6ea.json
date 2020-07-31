@@ -26,7 +26,7 @@
 					[
 						0
 					],
-					"name" : "k1",
+					"name" : "Essential_Cpp",
 					"targetIndexes" : 
 					[
 						0
@@ -37,9 +37,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "k1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-k1-Debug-2f5938d1dc86cd649a8c.json",
-					"name" : "k1",
+					"id" : "Essential_Cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Essential_Cpp-Debug-0efd384b6de3161690af.json",
+					"name" : "Essential_Cpp",
 					"projectIndex" : 0
 				}
 			]

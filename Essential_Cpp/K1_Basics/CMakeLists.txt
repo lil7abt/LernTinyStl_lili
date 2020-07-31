@@ -1,3 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
-project(k1)
-add_executable(k1 k1.cpp)
+project(Essential_Cpp)
+set(SOURCES UserProfile.cpp)
+message(Status "This is BINARY dir" ${HELLO_BINARY_DIR})
+message(Status "This is SOURCE dir" ${HELLO_SOURCE_DIR})
+add_executable(Essential_Cpp ${SOURCES})

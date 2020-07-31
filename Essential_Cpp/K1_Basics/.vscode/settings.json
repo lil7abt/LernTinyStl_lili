@@ -1,7 +1,16 @@
 {
     "cmake.sourceDirectory": "${workspaceFolder}/.",
     "files.associations": {
-        "vector": "cpp"
+        "vector": "cpp",
+        "string": "cpp",
+        "*.tcc": "cpp",
+        "iostream": "cpp",
+        "unordered_map": "cpp",
+        "string_view": "cpp",
+        "map": "cpp",
+        "iterator": "cpp",
+        "cstdlib": "cpp",
+        "ostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }

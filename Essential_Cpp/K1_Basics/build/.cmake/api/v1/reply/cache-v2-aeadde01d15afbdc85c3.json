@@ -879,7 +879,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "k1"
+			"value" : "Essential_Cpp"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1256,6 +1256,30 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "Essential_Cpp_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "F:/LernTinyStl_lili/Essential_Cpp/K1_Basics/build"
+		},
+		{
+			"name" : "Essential_Cpp_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "F:/LernTinyStl_lili/Essential_Cpp/K1_Basics"
 		},
 		{
 			"name" : "ch1_BINARY_DIR",
