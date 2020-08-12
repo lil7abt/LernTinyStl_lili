@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/lili/Documents/LernTinyStl_lili/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -o CMakeFiles/Essential_Cpp.dir/UserProfile.cpp.o -c /Users/lili/Documents/LernTinyStl_lili/Essential_Cpp/K1_Basics/UserProfile.cpp",
+  "file": "/Users/lili/Documents/LernTinyStl_lili/Essential_Cpp/K1_Basics/UserProfile.cpp"
+}
+]
