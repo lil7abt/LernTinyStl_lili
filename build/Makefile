@@ -142,32 +142,32 @@ Essential_Cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Essential_Cpp.dir/build.make CMakeFiles/Essential_Cpp.dir/build
 .PHONY : Essential_Cpp/fast
 
-UserProfile.o: UserProfile.cpp.o
+hello.o: hello.cpp.o
 
-.PHONY : UserProfile.o
+.PHONY : hello.o
 
 # target to build an object file
-UserProfile.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Essential_Cpp.dir/build.make CMakeFiles/Essential_Cpp.dir/UserProfile.cpp.o
-.PHONY : UserProfile.cpp.o
+hello.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Essential_Cpp.dir/build.make CMakeFiles/Essential_Cpp.dir/hello.cpp.o
+.PHONY : hello.cpp.o
 
-UserProfile.i: UserProfile.cpp.i
+hello.i: hello.cpp.i
 
-.PHONY : UserProfile.i
+.PHONY : hello.i
 
 # target to preprocess a source file
-UserProfile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Essential_Cpp.dir/build.make CMakeFiles/Essential_Cpp.dir/UserProfile.cpp.i
-.PHONY : UserProfile.cpp.i
+hello.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Essential_Cpp.dir/build.make CMakeFiles/Essential_Cpp.dir/hello.cpp.i
+.PHONY : hello.cpp.i
 
-UserProfile.s: UserProfile.cpp.s
+hello.s: hello.cpp.s
 
-.PHONY : UserProfile.s
+.PHONY : hello.s
 
 # target to generate assembly for a file
-UserProfile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Essential_Cpp.dir/build.make CMakeFiles/Essential_Cpp.dir/UserProfile.cpp.s
-.PHONY : UserProfile.cpp.s
+hello.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Essential_Cpp.dir/build.make CMakeFiles/Essential_Cpp.dir/hello.cpp.s
+.PHONY : hello.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Essential_Cpp"
-	@echo "... UserProfile.o"
-	@echo "... UserProfile.i"
-	@echo "... UserProfile.s"
+	@echo "... hello.o"
+	@echo "... hello.i"
+	@echo "... hello.s"
 .PHONY : help
 
 
