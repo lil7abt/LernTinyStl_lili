@@ -1,4 +1,9 @@
 {
     "cmake.configureOnOpen": true,
-    "cmake.sourceDirectory": "${workspaceFolder}/Essential_Cpp/K1_Basics"
+    "cmake.sourceDirectory": "${workspaceFolder}/Essential_Cpp/K1_Basics",
+    "files.associations": {
+        "string": "cpp",
+        "iosfwd": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
